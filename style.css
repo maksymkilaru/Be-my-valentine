@@ -1,0 +1,104 @@
+.page1, .page2 {
+    height: 100%;
+    margin: 0;
+    background-image: url('hearts-background-40.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 5px 5px red;
+}
+
+.page3 {
+    height: 100%;
+    margin: 0;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 5px 5px white;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+p {
+    color: pink;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p1 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(63, 63, 63);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#prizn {
+    font-size: 15px;
+    -webkit-text-stroke: 0px;
+    -webkit-text-stroke-color: black;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#imglove {
+    width: 150px; /* Укажите новую ширину изображения */
+    height: auto; /* Автоматическое масштабирование высоты */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.place_img {
+    background-color: darkgray;
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.place {
+    width: 230px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+}
+
+.place p {
+    color: black;
+    -webkit-text-stroke: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+    padding: 0;
+}
+
+.place button {
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 10px;
+    width: 220px;
+    background-color: rgb(255, 192, 226);
+    border-color: rgb(255, 66, 116);
+    border-radius: 10px;
+}
+
+#row {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
